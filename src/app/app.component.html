@@ -1,0 +1,14 @@
+<!-- <hello name="{{ name }}"></hello> -->
+
+<h1>
+  {{ appName }}
+</h1>
+
+<input type="text" [value]="clientName" />
+
+<p [style.color]="myColor">Andrei</p>
+<p [class]="appliedWDClass">Cadag</p>
+<p [class.blue]="notappliedWDClass">Bagang</p>
+
+<input [(ngModel)]="myName" placeholder="Enter your name: " />
+<p>Hello {{ myName }} !!</p>
